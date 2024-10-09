@@ -15,6 +15,7 @@ The project uses Chroma vector database, Cohere Command-r Model, Embed Model and
 ![Cohere RAG PDF Chatbot](rag-pdf-chat-bot.png)
 
 **1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) for your platform.**
+
 **2. Fork the repo to your Github account, so that you can change the code and add/finetune the features.**
 
 [https://github.com/Sangwan70/cohere-chatbot-pdf-langchain.git](https://github.com/Sangwan70/cohere-chatbot-pdf-chroma.git)
@@ -55,7 +56,7 @@ Prelude: Please make sure you have already downloaded node on your system and th
 - Choose a collection name where you'd like to store your embeddings in Chroma. This collection will later be used for queries and retrieval.
 - [Chroma details](https://docs.trychroma.com/getting-started)
 
-6. In `utils/makechain.ts` chain change the `QA_PROMPT` for your own usecase. Change `modelName` in `new OpenAI` to `gpt-4`, if you have access to `gpt-4` api. Please verify outside this repo that you have access to `gpt-4` api, otherwise the application will not work.
+6. In `utils/makechain.ts` chain change the `QA_PROMPT` for your own usecase.
 
 7. In a new terminal window, run Chroma in the Docker container:
 
