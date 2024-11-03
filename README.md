@@ -1,8 +1,8 @@
 # Cohere, LangChain & Chroma - Create a ChatGPT Chatbot for Your PDF Files
 
-Use the new Cohere api to build a chatGPT chatbot for multiple Large PDF files.
+Use the new Cohere API to build a chatbot for multiple Large PDF files.
 
-This repository used  LangChain, Chroma, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Chroma is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
+This repository used  LangChain, Chroma, Typescript, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Chroma is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
 
 This is an application of a RAG PDF chatbot using the powerful Cohere API. With an emphasis on reproducibility, this project offers a detailed narrative on the entire process, starting with the initial setup and concluding with a deployed chatbot.
 
