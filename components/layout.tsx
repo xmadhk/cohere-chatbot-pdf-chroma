@@ -10,9 +10,7 @@ export default function Layout({ children }: LayoutProps) {
           <nav className="ml-4 pl-6">
             <a href="#" className="hover:text-slate-600 cursor-pointer">
               Home
-            </a>
-          </nav>
-        <nav className="ml-4 pl-6">
+            </a>&nbsp; &nbsp;
             <a href="https://www.skillpedia.ai" className="hover:text-slate-600 cursor-pointer">
               SkillPediaAI
             </a>
