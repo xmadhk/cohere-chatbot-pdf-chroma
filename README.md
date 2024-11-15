@@ -61,7 +61,7 @@ Prelude: Please make sure you have already downloaded node on your system and th
 7. In a new terminal window, run Chroma in the Docker container:
 
 ```
-docker run -d -p 8000:8000 chromadb/chroma:latest
+docker run -d -p 8000:8000 chromadb/chroma:0.4.15
 ```
 
 ## Convert your PDF files to embeddings
