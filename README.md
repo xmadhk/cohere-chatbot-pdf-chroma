@@ -26,7 +26,7 @@ The project uses Chroma vector database, Cohere Command-r Model, Embed Model and
 
 **2. Fork the repo to your Github account, so that you can change the code and add/finetune the features.**
 
-[https://github.com/Sangwan70/cohere-chatbot-pdf-langchain.git](https://github.com/Sangwan70/cohere-chatbot-pdf-chroma.git)
+https://github.com/Sangwan70/cohere-chatbot-pdf-chroma.git
 
 **3. Clone the forked repo or download the ZIP to machine**
 
