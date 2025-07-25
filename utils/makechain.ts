@@ -21,7 +21,7 @@ Helpful answer in markdown:`;
 export const makeChain = (vectorstore: Chroma) => {
   const model = new ChatCohere({
     temperature: 0, // increase temepreature to get more creative answers
-    modelName: 'command-r', //change this to gpt-4 if you have access
+    modelName: 'command-a-03-2025', //change this to latest model
   });
 
   const chain = ConversationalRetrievalQAChain.fromLLM(
