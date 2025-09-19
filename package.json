@@ -15,7 +15,7 @@
     "ingest": "tsx -r dotenv/config scripts/ingest-data.ts"
   },
   "dependencies": {
-    "@langchain/cohere": "^0.3.0",
+    "@langchain/cohere": "^0.3.4",
     "@langchain/community": "^0.3.4",
     "@langchain/core": "^0.3.6",
     "@microsoft/fetch-event-source": "^2.0.1",
@@ -23,7 +23,7 @@
     "chromadb": "^1.9.2",
     "clsx": "^2.1.1",
     "cohere": "^1.1.1",
-    "cohere-ai": "^7.14.0",
+    "cohere-ai": "^7.19.0",
     "dotenv": "^16.4.5",
     "lucide-react": "^0.447.0",
     "next": "14.2.14",
