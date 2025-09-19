@@ -55,5 +55,5 @@ export const run = async () => {
 
 (async () => {
   await run();
-  console.log('ingestion complete');
+  console.log('Ingestion of documents complete');
 })();
